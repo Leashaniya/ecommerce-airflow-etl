@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+airflow_home/
+.DS_Store
+
+# Data is downloaded from Kaggle, not committed
+data/raw/*
+data/staging/*
+data/rejected/*
+!data/**/.gitkeep
